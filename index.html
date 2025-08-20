@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS JupyterLite</title>
+
+  <!-- Load JupyterLite -->
+  <script src="https://cdn.jsdelivr.net/npm/jupyterlite@0.2.0/dist/embed.js"></script>
+</head>
+<body>
+  <!-- JupyterLite Launcher -->
+  <jupyterlite-launcher
+    id="jupyterlite"
+    lite-dir="files"
+    app="lab"
+    theme="JupyterLab Light"
+  >
+  </jupyterlite-launcher>
+
+  <div style="margin:16px;font-family:sans-serif;">
+    <h2>CS Notebooks (Units 1–2)</h2>
+    <p>
+      Open <strong>JupyterLab</strong> above, then check the <code>files/</code>
+      folder for the notebooks (<code>Day_01.ipynb ... Day_16.ipynb</code>) and
+      <code>sample_data.csv</code>.
+    </p>
+  </div>
+</body>
+</html>
